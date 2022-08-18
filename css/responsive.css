@@ -84,3 +84,24 @@
         width: 970px;
     }
 }
+
+
+/* Tata letak untuk Tablet */
+@media screen and (max-width: 1000px) {
+    .property-flex {
+    flex-wrap: wrap;
+    }
+    .property-list {
+    width: 50%;
+    }   
+}
+
+/* Tata letak untuk Smartphone */
+@media screen and (max-width: 670px) {
+    .property-flex {
+    flex-direction: column;
+    }
+    .property-list {
+    margin: 0 auto;
+    }   
+}
